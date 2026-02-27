@@ -18,6 +18,15 @@
     padding: 20px;
 }
 
+.nome-da-propriedade-shorthand{
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: "Roboto",sans-serif;
+    color: green;
+    font-style: italic;
+    padding: 20px;
+}
+
 .valor-da-propriedade{
     font-size: 1,5em;
     font-weight: 400px;
@@ -281,4 +290,134 @@
     background-color: #f9eac3;
     padding: 16px;
     height: 500px
+}
+
+.container-flex-wrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+.container-flex-wrap-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+.container-flex-wrap-wrap-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+/*  VAMOS ESTUDAR UMA PROPRIEDADE SHORTHAND */
+.container-flex-flow-row-nowrap{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;  /* shorthand!! */
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+.container-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:center;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flexend
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-align-content-spacebetween
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-spacearound
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-spaceevenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
 }
